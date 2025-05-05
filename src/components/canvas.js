@@ -1,5 +1,6 @@
 import React, { useRef, useEffect, useState } from 'react';
-import '../styles/Canvas.css';
+import '../styles/canvas.css';
+
 
 const Canvas = ({ gridSize, selectedColor, currentTool, showGrid }) => {
   const canvasRef = useRef(null);
