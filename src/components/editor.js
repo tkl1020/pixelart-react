@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import Canvas from './canvas';
 import Toolbar from './toolbar';
 import ColorPalette from './colorpalette';
