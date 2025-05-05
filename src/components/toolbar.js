@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Toolbar.css';
+import '../styles/toolbar.css';
 
 const Toolbar = ({ currentTool, onToolChange, showGrid, onGridToggle }) => {
   const tools = [

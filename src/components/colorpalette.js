@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/ColorPalette.css';
+import '../styles/colorpalette.css';
 
 const ColorPalette = ({ colors, selectedColor, onColorChange }) => {
   return (
