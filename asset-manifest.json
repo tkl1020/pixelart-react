@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pixelart-react/static/css/main.ad1a4011.css",
+    "main.js": "/pixelart-react/static/js/main.0e760277.js",
+    "index.html": "/pixelart-react/index.html",
+    "main.ad1a4011.css.map": "/pixelart-react/static/css/main.ad1a4011.css.map",
+    "main.0e760277.js.map": "/pixelart-react/static/js/main.0e760277.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad1a4011.css",
+    "static/js/main.0e760277.js"
+  ]
+}
