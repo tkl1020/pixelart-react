@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
-import Canvas from './components/canvas';
-import Toolbar from './components/toolbar';
-import ColorPalette from './components/colorpalette';
-import './styles/editor.css';
+import Canvas from './canvas';
+import Toolbar from './toolbar';
+import ColorPalette from './colorpalette';
+import '../styles/editor.css';
 
 const Editor = () => {
   const [gridSize, setGridSize] = useState(32);
