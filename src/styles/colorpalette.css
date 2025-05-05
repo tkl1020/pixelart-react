@@ -1,0 +1,36 @@
+.color-palette {
+    padding: 10px;
+  }
+  
+  .color-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .color-cell {
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+  }
+  
+  .color-cell.selected {
+    border: 2px solid black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .current-color {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .color-preview {
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
